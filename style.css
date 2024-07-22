@@ -1,0 +1,32 @@
+#cover-image {
+  background: url("./images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+#cover-text {
+  width: 100%;
+  text-shadow: 10px 10px 6px black;
+  mix-blend-mode: ;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-link::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  background: #000;
+}
+.nav-link {
+  transition: 0.4s;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
